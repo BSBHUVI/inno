@@ -1,8 +1,8 @@
 
 
 .card {
-  height: 260px;
-  width: 700px;
+  height: fit-content;
+  width: 50%;
   position: relative;
   padding: 10px;
   box-sizing: border-box;
@@ -17,8 +17,8 @@
  
 }
 .card1 {
-    height: 240px;
-    width: 700px;
+    height: fit-content;
+    width: 50%;
     
     padding: 0px;
     box-sizing: border-box;
@@ -125,9 +125,9 @@ p,strong{
 .p{
     letter-spacing: 4px;
     word-spacing: 8px;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .box{
     width: 200px;
@@ -148,6 +148,8 @@ h3{
 .cats{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .catimg{
     width: 100%;
@@ -182,6 +184,8 @@ h3{
   }
   .foo{
       display: flex;
+      align-items: center;
+      flex-wrap: wrap;
   }
   .fot{
       width: 235px;
@@ -200,3 +204,9 @@ h3{
     border-radius: 20% !important;
 }
 
+.margin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

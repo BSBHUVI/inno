@@ -14,7 +14,7 @@ function Section1({backgroundimg}) {
         <h1>THEME</h1>
         </div>
         <div className="ab">
-            <p className='p'>The Theme For <strong>Innovathon 2k22</strong> is <strong>'Innovation for life'</strong> which intends to innovative solutions for current real life problems</p>
+            <p className='p'>The Theme For <strong>Innovathon 2k22</strong> is <strong>'Innovation for life'</strong> which intends to innovative solutions for current real  problems</p>
         </div>
         <div className="theme">
         <h1>CATEGORIES</h1>

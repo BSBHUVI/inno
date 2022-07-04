@@ -9,7 +9,7 @@ function Section({backgroundimg}) {
         <Fade bottom>
         <ItemText>
         
-
+<div className="margin">
 
   <a  className="card">
 
@@ -46,6 +46,7 @@ function Section({backgroundimg}) {
   <p>The objective of this hackathon is to provide technical and innovative solutions to the existing local and community problems.The hackathon will help students to showcase their innovative intellectual ability to provide solutions for the real life challengesS</p>
 </div>
 </a>
+</div>
 
         
 
