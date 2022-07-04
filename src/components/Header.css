@@ -1,0 +1,19 @@
+
+  
+  .clg{
+    color: white;
+    text-shadow: 1px 1px 2px black,0 0 25px rgb(239, 4, 71),0 0 25px rgb(244, 25, 105);
+}
+.clgg{
+    color: white;
+    text-shadow: 1px 1px 20px black,0 0 40px rgb(233, 5, 245),0 0 25px  rgb(204, 86, 129);
+}
+  .logo{
+      margin-right: 60px;
+      border-radius: 50%;
+  }
+  .conta{
+      overflow: hidden;
+  }
+  
+ 
