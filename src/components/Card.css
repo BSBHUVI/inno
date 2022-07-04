@@ -1,8 +1,8 @@
 
 
 .card {
-  height: 40vh;
-  width: 50%;
+  height: fit-content;
+  width: 75%;
   position: relative;
   padding: 10px;
   box-sizing: border-box;
@@ -17,8 +17,8 @@
  
 }
 .card1 {
-    height: 40vh;
-    width: 50%;
+    height: fit-content;
+    width: 75%;
     
     padding: 0px;
     box-sizing: border-box;
@@ -37,7 +37,8 @@
 .inner {
   height: 100%;
   width: 50%;
-  display: flex;
+  
+  
   
  
  
@@ -49,6 +50,8 @@
 }
 .logo{
     float: left;
+    width: 8vw;
+    height: 8vh;
 }
 
 .cse{
@@ -57,37 +60,9 @@
     object-fit: cover;
 }
 
-.h1 {
-    font-size: 25pt;
-    font-family: 'Luckiest Guy';
-    color: #fff;
-    margin-bottom: 17px;
-    margin-top: 20px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-shadow:   0px -6px 0 #212121,  
-                   0px -6px 0 #212121,
-                   0px  6px 0 #212121,
-                   0px  6px 0 #212121,
-                  -6px  0px 0 #212121,  
-                   6px  0px 0 #212121,
-                  -6px  0px 0 #212121,
-                   6px  0px 0 #212121,
-                  -6px -6px 0 #212121,  
-                   6px -6px 0 #212121,
-                  -6px  6px 0 #212121,
-                   6px  6px 0 #212121,
-                  -6px  18px 0 #212121,
-                   0px  18px 0 #212121,
-                   6px  18px 0 #212121,
-                   0 19px 1px rgba(0,0,0,.1),
-                   0 0 6px rgba(0,0,0,.1),
-                   0 6px 3px rgba(0,0,0,.3),
-                   0 12px 6px rgba(0,0,0,.2),
-                   0 18px 18px rgba(0,0,0,.25),
-                   0 24px 24px rgba(0,0,0,.2),
-                   0 36px 36px rgba(0,0,0,.15);
-  }
+.h2{
+    text-shadow: 0 0 3px #ff0000;
+}
 .in{
     width: 100px;
     height: 100px;
@@ -112,7 +87,7 @@ p,strong{
     color: white;
 }
 .theme{
-    width: 40%;
+    width: fit-content;
     height: fit-content;
     background-color: white;
     border-radius: 0px 0px 20px 0px;
@@ -125,7 +100,7 @@ p,strong{
     margin-bottom: 20px;
 }
 .box{
-    width: 15vw;
+    width: 150px;
     height: 15vh;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 2px 2px 20px 2px black;
@@ -166,12 +141,14 @@ h3{
 }
   .f{
       text-align: center;
+      font-size: 5pt;
+      font-weight: bold;
       
      
   }
-  .fz{
-    margin: 2vh;
-  }
+ .fz{
+    margin:4px 0px 4px 0px ;
+ }
   .foot1{
     display: flex;
     flex-wrap: wrap;
@@ -179,10 +156,10 @@ h3{
   }
   .foot{
       background-color: white;
-      width:fit-content;
-      height: 15vh;
+      width:25vw;
+      height: 5vh;
       border-right: 5px dotted black;
-      flex: 1 1 200px;
+      flex: 1 1 20px;
   }
   .foo{
       display: flex;
@@ -190,8 +167,8 @@ h3{
       flex-wrap: wrap;
   }
   .fot{
-      width: 235px;
-      height: 80px;
+      width: 20vw;
+      height: fit-content;
       
   }
   .fi{

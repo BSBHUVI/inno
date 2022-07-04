@@ -15,17 +15,15 @@ function Section({backgroundimg}) {
 
       <div className="inner">
       
-      <div className="start">
-      <img className='logo' width="60" height="60" src="https://i.postimg.cc/RFFn6n6k/Sai-logo.png" alt="" />
-      <h5 className="title">NATIONAL LEVEL VIRTUAL HACKATHON 2022 </h5>
-      <h1 className='h1'>Innovathon</h1>
-      <h1 className='h1'>2K22</h1>
-   
-      </div>
-     
+      
+      <img className='logo'  src="https://i.postimg.cc/RFFn6n6k/Sai-logo.png" alt="" />
+      
+  
+      <h6 className='h2'>NATIONAL LEVEL VIRTUAL HACKATHON 2022</h6>
         
         
       </div>
+      
      
   </a>
   <a className="card1">
@@ -67,7 +65,7 @@ function Section({backgroundimg}) {
 export default Section
 const Wrap=styled.div`
 width:100vw;
-height:100vh;
+
 background-size:cover;
 background-position:center;
 
