@@ -26,9 +26,7 @@ function Section({backgroundimg}) {
         
         
       </div>
-      <div className="last">
-      <img className='cse' src="https://i.postimg.cc/ncZykDYZ/cse.jpg" alt="" />
-      </div>
+     
   </a>
   <a className="card1">
   <div className="head">
