@@ -18,15 +18,15 @@ function Header() {
         <h1 className="clg">INNOVATHON 2K22</h1>
       </a>
       <Menu>
-       <h1 className='clgg'>SRI SAIRAM COLLEGE OF ENGINEERING</h1>
-          
-          
        
+       <h1 className='clgg'>SRI SAIRAM COLLEGE OF ENGINEERING</h1>
 
       </Menu>
       <RightMenu>
+       <img className='logo' width="100" height="100" src="https://i.postimg.cc/RFFn6n6k/Sai-logo.png" alt="" />
+          
     
-         <img className='logo' width="100" height="100" src="https://i.postimg.cc/RFFn6n6k/Sai-logo.png" alt="" />
+        
    
           
           

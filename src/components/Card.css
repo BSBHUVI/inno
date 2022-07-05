@@ -50,8 +50,8 @@
 }
 .logo{
     float: left;
-    width: 8vw;
-    height: 8vh;
+    width: 10vw;
+    height: 10vh;
 }
 
 .cse{
@@ -98,6 +98,7 @@ p,strong{
     margin-top: 20px;
     margin-left: 25px;
     margin-bottom: 20px;
+    text-align: inherit;
 }
 .box{
     width: 150px;

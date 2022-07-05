@@ -19,7 +19,7 @@ function Section({backgroundimg}) {
       <img className='logo'  src="https://i.postimg.cc/RFFn6n6k/Sai-logo.png" alt="" />
       
   
-      <h6 className='h2'>NATIONAL LEVEL VIRTUAL HACKATHON 2022</h6>
+      <h5 className='h2'>NATIONAL LEVEL VIRTUAL HACKATHON 2022</h5>
         
         
       </div>
